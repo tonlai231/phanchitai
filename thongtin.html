@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    width: 1000px;
+    height: 2000px;
+    margin: 0px auto;
+}
+.menu-top{
+    height: 80px;
+    background: black;
+}
+.menu-top img{
+    float: left;
+    margin-top: 0px auto;
+    height: 80px;
+    line-height: 80px;
+}
+.hmenu{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    list-style: none;
+    height: 80px;
+}
+ul.hmenu>li>a{
+    display: block;
+    line-height: 80px;
+    text-decoration: none;
+    padding-left: 25px;
+    color: white;
+}
+ul.hmenu>li>a:hover{
+    color: rgb(150, 12, 12);
+}
+ul.hmenu>li{
+    float: left;
+    margin: 0 5px;
+    position: relative;
+}
+ul.hmenu>li:hover>.smenu{
+    display: block;
+}
+.smenu{
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    position: absolute;
+    display: none;
+    background-color: black;
+}
+.smenu>li>a{
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px double white;
+    text-decoration: none;
+    color: white; 
+}
+.smenu>li>a:hover{
+    color: rgb(150, 12, 12);
+    font-weight: bolder;
+}
+.box-left{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+}
+.box-left img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.box-left .hinh a{
+    text-decoration: none;
+    color: black;
+}
+.box-left .hinh a:hover{
+    color: rgb(88, 84, 84);
+}
+.box-right{
+   float: right;
+}
+.box-right1{
+    float: right;
+    width: 600px;
+}
+.box-left1{
+    width: 250px;
+}
+
+.box-left1 h4{
+    width: 200px;
+    border: 1px solid rgb(168, 159, 159);
+    border-radius: 5px;
+    background-color: rgb(177, 161, 161);
+}
+.box-left1 h5{
+    width: 100px;
+    border: 1px solid rgb(219, 149, 149);
+    border-radius: 5px;
+    background-color: rgb(219, 149, 149);
+    text-align: center;
+    float: left;
+    margin: 10px;
+    
+}
+.box-right2{ 
+    float: right;
+    width: 300px;
+}
+.box-right2 h6{
+    word-spacing: 3px;
+}
+.box-right2 .dangki{
+    border: 3px double rgb(100, 92, 92);
+}
+.box-right2 h5 {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(167, 154, 154);
+    text-decoration: none;
+    line-height: 30px;
+}
+.box-right2 a{
+    text-decoration: none;
+}
+.box-right2 h3{
+    width: 100px;
+    height: 30px;
+    border: 1px double rgb(100, 92, 92);
+    line-height: 30px;
+}
+.box-left2 {
+    width: 600px;
+}
+h1{
+    width: 400px;
+    box-shadow: black;
+    margin-top: 250px;
+    font-size: 15pt;
+
+}
+
+.footer{
+    width: 1000px;
+    height: 450px;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+}
+.footer1{
+    float: left;
+    margin: 30px;
+}
+.footer1 a{
+    text-decoration: none;
+    color: white;
+}
+.footer1 a:hover{
+    color: rgb(138, 120, 120);
+}
+.footer .footer2{
+    width: 150px;
+    margin: 30px;
+    float: left;
+    margin-left: 50px;
+
+}
+.footer2 a{
+    text-decoration: none;
+    color: white;
+}
+.footer2 a:hover{
+    color: rgb(138, 120, 120);
+}
+.footer .footer3{
+    width: 150px;
+    margin: 30px;
+    float: left;
+}
+.footer3 a{
+    text-decoration: none;
+    color: white;
+}
+.footer3 a:hover{
+    color: rgb(138, 120, 120);
+}
+.footer .footer3 img{
+    width: 150px;
+    height: 150px;
+}
+.footer4{
+    width: 1000px;
+    text-align: center;
+    float: left;
+}
+.footer4 a{
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.footer4 a:hover{
+    background-color: rgb(177, 161, 161);
+}
+.footer5 hr{
+    width: 1000px;
+    color: white;
+    margin-top: 200px;
+}
+.footer5 img{
+    width: 400px;
+    height: 60px;
+    float: right;
+    margin-top: -70px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="menu-top">
+        <header>
+            <div class="logo"><img src="ảnh/trangchu/logo.png" alt=""></div>
+            <ul class="hmenu">
+                <li><a href="index.html">Trang chủ</a> 
+                <li><a href="#">Thương Hiệu</a>
+                    <ul class="smenu">
+                        <li><a href="CASIO.html">CASIO</a></li>
+                        <li><a href="DOXA.html">DOXA</a></li>
+                        <li><a href="CITIZEN.html">CITIZEN</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Nam</a></li>
+                <li><a href="#">Nữ</a></li>
+                <li><a href="#">Cặp đôi</a></li>
+                <li><a href="#">Phụ Kiện</a></li>
+                <li><a href="#">Liên hệ</a>
+                    <ul class="smenu">
+                        <li><a href="thongtin.html">Thông tin</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+</div>
+     <center><h2>Hệ thống của hàng</h2></center>
+     <hr>
+    <div class="box-right"> 
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125443.34487270378!2d106.3910918541623!3d10.726420749080383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752c31cf8fa9f9%3A0x5d5cec3501dea8fb!2zxJDhu5NuZyBI4buTIEjhuqNpIFRyaeG7gXU!5e0!3m2!1sen!2s!4v1583139527275!5m2!1sen!2s"
+            width="600" 
+            height="450" 
+            frameborder="0" 
+            style="border:0;" 
+            allowfullscreen="">
+        </iframe>
+    </div>
+    <div class="box-left">
+        <div class="hinh">
+            <img src="ảnh/diachi/hinh1.jpg" alt="">
+            <a href="#">
+                <h4>SHOWROOM HÓC MÔN</h4>
+                <h6>92/2 Nguyễn Ảnh Thủ, Trung Chánh, Tân Xuân,
+                Hóc Môn – TPHCM <br>
+                19006777 <br>
+                Nhận Chỉ Đường <br></h6></a>
+        </div>
+        <div class="hinh">
+            <img src="ảnh/diachi/hinh2.jpg" alt="">
+            <a href="#">
+                <h4>SHOWROOM LONG XUYÊN</h4>
+                <h6>2 Hà Hoàng Hổ, P. Mỹ Xuyên, TP.
+                    Long Xuyên, Tỉnh An Giang <br>
+                    19006777 <br>   
+                    Nhận Chỉ Đường<br></h6></a>
+        </div>
+        <div class="hinh">
+            <img src="ảnh/diachi/hinh3.jpg" alt="">
+            <a href="#">
+                <h4>SHOWROOM CẦN THƠ</h4>
+                <h6>85B Lý Tự Trọng, P.An Phú, Q.Ninh
+                Kiều, Cần Thơ<br>
+                19006777 <br>
+                Nhận Chỉ Đường <br></h6></a>
+        </div>
+        <div class="hinh">
+            <img src="ảnh/diachi/hinh4.jpg" alt="">
+            <a href="#">
+                <h4>SHOWROOM LONG XUYÊN</h4>
+                <h6>22 Hà Hoàng Hổ, P. Mỹ Xuyên, TP. 
+                Long Xuyên, Tỉnh An Giang <br>
+                19006777 <br>
+                Nhận Chỉ Đường <br></h6></a>
+        </div>
+    </div>
+    <div class="box-right1">
+         <hr>
+         <center><h2>GIỚI THIỆU</h2></center> 
+         <hr>
+         <h5>Được thành lập cách đây hơn 25 năm – vào những ngày cuối
+            cùng của năm 1991, Đồng Hồ Hải Triều đã tồn tại và phát
+            triển đến ngày nay và đang dần vươn lên trở thành 1 trong
+            những nhà bán lẻ đồng hồ hàng đầu ở Việt Nam!
+        </h5>
+        <h5>
+            Với tiêu chí phải luôn đem lại giá trị cao nhất cho khách hàng,
+            Đồng Hồ Hải Triều không chỉ bán cho khách hàn những chiếc
+            đồng hồ tốt nhất mà còn mang lại sự an tâm cho khách hàng
+            khi sử dụng đồng hồ bằng các hình thức bảo hành, hậu mãi mà  
+            khó có thể tìm được ở bất kì đâu!
+        </h5>
+        <h5>
+            Sự thoải mái, tiện lợi và tâm lý khách hàng luôn được đặt lên 
+            hàng đầu để khách hàng khi đến với Đồng Hồ Hải Triều sẽ
+            luôn là những khoảnh khắc đáng nhớ lưu lại trong tâm trí 
+            khách hàng!
+        </h5>
+        <hr>
+    </div>
+    <div class="box-left1">
+        <hr>
+        <center><h4>Tất cả các showroom</h4></center>
+        <center>
+        <h5>TPHCM</h5>
+        <h5>Hà Nội</h5>
+        <h5>Cần Thơ</h5>
+        <h5>Long Xuyên</h5>
+        <h5>Biên Hòa</h5>
+        <h5>Vũng Tàu</h5>
+        </center>
+    </div>
+
+    <h1>HỆ THỐNG CÁC CỬA HÀNG</h1>
+    <div class="box-right2">
+        <center><h2>BÀI VIẾT HAY</h2></center>      
+        <img src="ảnh/diachi/hinh11.JPG" alt="">        
+        <h4>5 THƯƠNG HIỆU ĐỒNG HỒ NAM GIÁ TỪ 2 ĐẾN 3 TRIỆU TỐT NHẤT</h4>
+        <h6>Posted on 04/03/2020 at 6:45 pm by Đồng Hồ Hải Triều
+        Casio, Orient, Citizen, Fossil và Skagen là 5 thương hiệu
+        đồng hồ nam giá từ 2 đến 3 triệu tốt và phổ biến nhất tại 
+        Việt Nam hiện nay. Để có được mức giá rẻ như vậy thì điểm chung 
+        của tất cả là đều sử dụng bộ máy bền bỉ của Nhật. Thông tin đầy đủ 
+        về 5 thương hiệu này được cập nhật…</h6>   
+        <div class="dangki">
+        <center> Nhận Khuyến Mãi
+        <h6>Đăng kí nhận những thông tin mới nhất về Hải Triều & thế giới đồng hồ ngay hôm nay</h6>
+        <h5><a href="#"> Nhập Họ & Tên của bạn</a></h5>
+        <h5><a href="#">Nhập Email của bạn</a></h5>
+        <h3><a href="#">Đăng Kí</a> </h3>
+        </center>
+        </div>    
+    </div>
+
+    <div class="box-left2">      
+        <div class="hinh6"> 
+            <img src="ảnh/diachi/hinh6.jpg" alt="">    
+            <h5><strong>Chi nhánh:</strong> 160 Âu Cơ, P.9, Q.Tân Bình – TPHCM <a href="#">(Xem Bản Đồ)</a><br>
+                <strong>SĐT</strong>: 1900.6777 <br>
+                <strong>Email</strong>: lienhe@donghohaitrieu.com <br> 
+                <strong>Bán Các Hãng</strong>: Citizen, Casio, TiTan, Skagen, Seiko, OP, Orient,
+               Adriatica, Police, Timex, Daniel Wellington <br>
+            </h5>
+            </div>
+            <hr>
+            <div class="hinh6"> 
+                <img src="ảnh/diachi/hinh7.jpg" alt="">    
+                <h5><strong>Chi nhánh:</strong> 46b Đường Phan Huy Ích, Tân Bình, TP. HCM  <a href="#">(Xem Bản Đồ)</a><br>
+                    <strong>SĐT</strong>: 1900.6777 <br>
+                    <strong>Email</strong>: lienhe@donghohaitrieu.com <br> 
+                    <strong>Bán Các Hãng</strong>: Doxa, Fouettes, Longines, Tissot, FC, Citizen, Casio,
+                    Orient, OP, CK, DW, Fossil, Seiko <br>
+                </h5>
+            </div>
+                <hr>
+                
+            <div class="hinh6">
+                <img src="ảnh/diachi/hinh8.jpg" alt="">     
+                <h5><strong>Chi nhánh:</strong> 199 Âu Cơ, P.14, Q.11 – TPHCM <a href="#">(Xem Bản Đồ)</a><br>
+                    <strong>SĐT</strong>: 1900.6777 <br>
+                    <strong>Email</strong>: lienhe@donghohaitrieu.com <br> 
+                    <strong>Bán Các Hãng</strong>: Longines, Doxa, Tissot, Rado, CK, Fouettes, 
+                    Frederique Constant <br>
+                </h5>
+            </div>
+                <hr>
+                
+                <div class="hinh6">
+                    <img src="ảnh/diachi/hinh9.jpg" alt="">     
+                    <h5><strong>Chi nhánh:</strong> 12b Nguyễn Thị Định, Cát Lái, Quận 2, TP. HCM <a href="#">(Xem Bản Đồ)</a><br>
+                        <strong>SĐT</strong>: 1900.6777 <br>
+                        <strong>Email</strong>: lienhe@donghohaitrieu.com <br> 
+                        <strong>Bán Các Hãng</strong>: Doxa, Fouettes, Longines, Tissot, FC, Citizen, Casio, Orient, 
+                        OP, CK, DW, Fossil, Seiko <br>
+                    </h5>
+                </div>
+    </div>
+    <div class="footer">
+        <div class="footer1">
+            <a href="#"><h4>Hướng Dẫn</h4></a>
+            <a href="#"><h5>Thông tin liên hệ</h5></a>
+            <a href="#"><h5>Hỏi đáp - Góp ý</h5></a>
+            <a href="#"><h5>Chính sách đổi hàng</h5></a>
+            <a href="#"><h5>chính sách bảo hành</h5></a>
+        </div>
+        <div class="footer2">
+            <a href="#"><h4>Tham Khảo</h4></a>
+            <a href="#"><h5>Thông báo mới</h5></a>
+            <a href="#"><h5>Điều khoản sử dụng</h5></a>
+            <a href="#"><h5>Bảo mật thông tín</h5></a>
+            <a href="#"><h5>Ngưng hiện quảng cáo</h5></a>
+        </div>
+        <div class="footer3">
+            <a href="#"><h4>Chứng Nhận</h4></a>
+            <img src="ảnh/trangchu/logo2.png" alt="">
+        </div>
+        <img src="ảnh/trangchu/logo3.png" alt="" width="300px" height="150px">
+        <div class="footer4">
+            <a href="#">  Tìm vị trí showroom  </a>    
+            <a href="#">  TP HCM  </a>   
+            <a href="#">  Biên Hòa-Bình Dương  </a>   
+            <a href="#">  Vũng Tàu  </a>   
+            <a href="#">  Cần Thơ  </a>   
+            <a href="#">  Long Xuyên  </a>   
+            <a href="#">  Hạ Nội  </a>   
+        </div>
+        <div class="footer5">
+            <hr>
+            <h6>Copyright by Đồng Hồ Hải Triều® Since 1991 <br>
+            Góp ý & Khiếu nại: ceo@donghohaitrieu.com</h6>
+            <img src="ảnh/trangchu/logo4.png" alt="">
+        </div>
+        </div>
+        <script src="https://uhchat.net/code.php?f=b5278a"></script>
+</body>
+</html>
